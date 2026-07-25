@@ -1,0 +1,10 @@
+# Pinned top-level dependencies - transitive deps resolved by pip.
+# Install with: pip install -r requirements.txt && pip install -e .
+chromadb==1.5.9
+requests==2.34.2
+sentence-transformers==5.6.0
+streamlit==1.59.2
+typer==0.27.0
+
+# Development
+pytest==9.1.1

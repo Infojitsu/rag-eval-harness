@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Data - corpus is fetched by script, indexes are rebuilt by `rag ingest`
+data/corpus/
+data/chroma/
+data/results/
+
+# Model caches
+.cache/
+*.gguf
+
+# Local tooling / IDE
+.vscode/
+.idea/
+
+# Secrets & env - never committed
+.env
+*.key
+.streamlit/secrets.toml
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Technical report - local only, kept out of the public repo
+docs/technical-report.tex
+docs/technical-report.pdf
+
+# OS
+Thumbs.db
+.DS_Store
